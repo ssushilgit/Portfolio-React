@@ -19,8 +19,8 @@ const About = () => {
 
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga veritatis architecto maxime soluta velit sit assumenda distinctio suscipit ducimus. </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur numquam dicta ipsam molestiae perferendis unde vitae? Odio, alias. Harum nemo maxime dolorum tempora. Veniam eum sequi harum autem aperiam aspernatur.</p>
+                        <p>Sushil Shrestha, from Vyas-2, Damauli, Tanahun, Nepal, recently completed my Bachelor's degree in BSc. CSIT from Tribhuvan University. With a strong foundation in computer science, I am now concentrating on React frontend development, where I am applying my knowledge to build responsive and efficient web applications.</p>
+                        <p>As an aspiring developer, I am now deeply engaged in enhancing my skills, particularly in the field of React JS. My commitment to mastering modern web technologies reflects to becoming a proficient and impactful developer in the field.</p>
                     </div>
 
                     <div className="about-skills">
