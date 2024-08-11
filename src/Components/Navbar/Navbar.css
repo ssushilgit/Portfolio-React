@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 100px;
 }
 .navbar h1{
     /* font-size: 28px; */
@@ -10,6 +10,10 @@
     color: #f0f0f0;
     text-decoration: none;  
     cursor: pointer;
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
 }
 
 .nav-menu{
@@ -21,7 +25,7 @@
     cursor: pointer;
 }
 .nav-connect{
-    padding: 20px 40px;
+    padding: 20px 50px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 20px;
@@ -30,4 +34,5 @@
 }
 .nav-connect:hover{
     transform: scale(1.05);
+    border: 2px solid #fff;
 }
