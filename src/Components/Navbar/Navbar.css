@@ -14,6 +14,13 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; 
+    transition: 1s;
+
+    
+}
+.navbar h1:hover{
+    transform: scale(1.5);
+
 }
 
 .nav-menu{
@@ -30,9 +37,9 @@
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 20px;
     cursor: pointer;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 .nav-connect:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     border: 1px solid #fff;
 }
