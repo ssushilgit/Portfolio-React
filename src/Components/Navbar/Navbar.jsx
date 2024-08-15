@@ -28,8 +28,8 @@ const Navbar = () => {
           <Link to='contact' smooth={true} offset={-40} duration={500}><p onClick={() => setMenu("contact")}>Contact</p> </Link> {menu === "contact" ? <img src={underline} alt='' /> : <></>}
         </li>
       </ul>
-      <div className="nav-connect">
-        Connect With Me
+      <div className="nav-connect"> <Link to='contact' smooth={true} offset={-40} duration={500}>
+        Connect With Me </Link>
       </div>
 
     </div>
