@@ -69,3 +69,34 @@
 .mywork-showmore img {
     width: 20px;
 }
+@media(max-width:768px){
+    .mywork{
+        gap: 40px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .mywork-title h1{
+        padding: 0;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .mywork-title img{
+        width: 70px;
+        margin-right: -20px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .mywork-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .mywork-showmore{
+        padding: 15px 35px;
+        font-size: 14px;
+        margin: 40px auto;
+        cursor: pointer;
+    }
+    
+}
